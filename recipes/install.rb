@@ -1,6 +1,6 @@
 #
 # Cookbook Name:: docker-nginx
-# Recipe:: default
+# Recipe:: install
 #
 # Copyright (C) 2014 Daniel Ku
 #
@@ -31,5 +31,6 @@ docker_container 'nginx' do
   command '-g "daemon off;"'
   detach true
   port '80:80'
+  cmd_timeout 300
   action :run
 end

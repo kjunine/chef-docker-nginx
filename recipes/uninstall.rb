@@ -1,6 +1,6 @@
 #
 # Cookbook Name:: docker-nginx
-# Recipe:: default
+# Recipe:: uninstall
 #
 # Copyright (C) 2014 Daniel Ku
 #
